@@ -1,0 +1,613 @@
+body .container{
+    width: 100%;
+}
+header .container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+header .container .center{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header .div{
+    display: flex;
+}
+header .container .right{
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    align-items:center ;
+}
+section .main{
+    display: flex;
+    justify-content: center;
+}
+section  img{
+    width: 95%;
+    /* margin: 0 auto; */
+}
+section .discription{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .discription .right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    color: #AAAAAA;
+    gap: 100px ;
+    font-size: 1.4em;
+}
+section .discription .left{
+    width: 40%;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+    color: #1A1A1A;
+    display: flex;
+    gap: 15px;
+    font-size: 3em;
+}
+section .roomm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .roomm2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .words{
+    text-align: center;
+}
+.words h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1A1A1A;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.words a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+section .images{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.images .container div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+section .words1{
+   text-align: center;
+   margin-top: 20vh;
+   margin-bottom: 10vh;
+    width: 100%;
+}
+.words1 h1{
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1A1A1A;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+.words1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #46856E;
+    margin-right: 26%;
+}    
+
+.words2{
+    width: 30%;
+}
+.roomic img{
+    width: 100%;
+}
+.words2 img{
+    width: 70%;
+}
+section .words2 h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1A1A1A;
+}
+section .words2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+.roomic .container>div div{
+    width: 30%;
+}
+.roomic .container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.roomic2{
+    background-image: url(./Rectangle\ \(5\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.roomm2 .container .stars p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.roomic2 .container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+.stars img{
+    width: 10px;
+}
+#imgL{
+    width: 100px;
+}
+.roomic3 h1{
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #AAAAAA;
+}
+.roomic3 h2{
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #000000;
+}
+.roomic4 .container>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7vh;
+}
+.roomic4 .container>div img{
+    width: 60%;
+}
+.roomic4 .container>div div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.roomic4 h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1A1A1A;
+}
+.roomic4 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+.roomic5 img{
+    width: 100%;
+    margin-bottom: 20vh;
+}
+.roomic6{
+    height: 585px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #F2F2F2;
+    border-radius: 2px;
+    width: 80%;
+    margin-left: 135px;
+}
+.roomic6 .container div{
+    margin-block: 28px;
+}
+.roomic6 h1{
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+}
+.roomic6 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+.roomic6>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.roomic6 .gg{
+    background-image: url(./Rectangle\ \(10\).jpg);
+    width: 18%;
+    margin-left: 485px;
+    height: 14%;
+}
+.roomic6 .container .c6{
+    margin-block: 50px;
+}
+.roomic6 .gg p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.roomic6 .gg2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+}
+.roomic6 .gg2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+.footer{
+    background-image: url(./Rectangle\ \(11\).jpg);
+    width: 100%;
+    height: 619px;
+    margin-top: 14vh;
+    margin-bottom: 20vh;
+}
+.footer .left img{
+    width: 87px;
+}
+#whitee{
+    color: white;
+}
+.footer .container .center img{
+    width: 20px;
+    height: 20px;
+}
+.footer .container p{
+    color: white;
+}
+.footer .container .center a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between
+}
+.footer .container .center input{
+    background: none;
+    width: 327px;
+    height: 54px;
+    border-radius: 3px;
+    border: 1px solid white;
+    outline: none;
+}
+.footer .container .center2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .center3 a{
+    display: flex;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer .container .center3 input{
+    background: none;
+    width: 27px;
+    height: 27px;
+    border: 1px solid white;
+    outline: none;
+}
+#h3{
+    color: white;
+}
+.footer .container .left img{
+    display: flex;
+    margin-top: 22vh;
+    margin-left: 100px;
+
+
+}
+.footer .container .center22{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-left: 80px;
+    color: white;
+}
+.footer .container .center22 .center23{
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer .center2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 20vh;
+}
+.footer .center3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60vh;
+}
+#menu{
+    display: none;
+}
+
+
+@media (max-width:576px) {
+    #menu{
+        display: block;
+    }
+    header .container .center{
+        display: none;
+    }
+    header .container .right{
+        display: none;
+    }
+    section img {
+        width: 90%;
+    }
+    section .discription .right {
+        width: 40%;
+        color: #AAAAAA;
+        line-height: 44px;
+    }
+    section .roomm{
+        display: flex;
+        flex-direction: column;
+    }
+    section .roomm2{
+        display: flex;
+        flex-direction: column;
+    }
+    section .discription{
+        font-size: 35%;
+        line-height: 38px;
+    }
+    section .words div{
+        width: 90%;
+        line-height: 3px;
+    }
+    section .words1{
+        text-align: start;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        color: #1A1A1A;
+        margin-top: -150px;
+        margin-bottom: 10vh;
+    }
+    section .images .container div{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .roomic img{
+        width: 90%;
+    }
+    .roomic .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    section .words1{
+        text-align: center;
+        margin-bottom: -72px;
+        width: 90%;
+    }
+    .words1 h1{
+        line-height: 25px;
+        font-size: 30px;
+    }
+    section .words2 p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 19px;
+        color: #AAAAAA;
+    }
+    .words2{
+        margin: auto;
+        margin-right: 181px;
+    }
+    .roomic2{
+        background-position-x: 60%;
+        background-position-y: center;
+    }
+    .roomic2 .container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        line-height: 15px;
+        text-align: center;
+    }
+    .roomic3 h1 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 49px;
+        color: #AAAAAA;
+    }
+    .roomic3 h2{
+        text-align: center;
+        font-size: 22px;
+    }
+    .roomic4 .container div{
+        display: flex;
+        flex-direction: column;
+    }
+    .roomic4 .container>div img{
+       width: 90%;
+    }
+    .roomic4 .container>div div{
+        width: 90%;
+        text-align: center;
+        order: 1;
+    }
+    .roomic5 img{
+        width: 90%;
+        margin-bottom: 0vh;
+    }
+    .roomic6 h1 {
+        color: #000000;
+        margin-bottom: -20px;
+    }
+    .roomic6 {
+        height: 791px;
+        background: #F2F2F2;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .roomic6 h1{
+        font-size: 21px;
+    }
+    .roomic6 .container div{
+        margin-block: 28px;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .roomic6>div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .roomic6 .gg{
+        width: 35%;
+        height: 7%;
+        margin-left: 104px;
+        margin-top: 10px;
+    }
+    section img{
+        margin-left: 11px;
+    }
+    .footer{
+        width: 90%;
+        margin-top: 9vh;
+        height: 1200px;
+    }
+    .footer .container{
+        flex-direction: column;
+    }
+    .footer .container .left img{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .footer .container .center22{
+        margin-top: 0;
+        margin-left: 8px;
+    }
+    .footer .container .center22 .center23{
+        margin-top: 10px;
+    }
+    .footer .center2{
+        margin-top: -45vh;
+        margin-left: 206px;
+    }
+    .center17 img{
+        width: 30%;
+    }
+    .footer .center3{
+        margin-top: 18vh;
+        text-align: center;
+    }
+    .center17 img{
+        width: 7%;
+        margin-left: 46px;
+    }
+    .footer .container p{
+        text-align: center;
+    }
+    .footer .container .center input{
+        width: 300px;
+        height: 47px;
+    }
+    
+}
+
+
